@@ -1,3 +1,4 @@
 .prettierrc
+.husky
 dist
 package-lock.json

@@ -8,6 +8,7 @@
     "dev": "webpack serve --config webpack.config.dev.js",
     "dev:hot": "npm run dev -- --hot",
     "format": "pretty-quick",
+    "format:staged": "npm run format -- --staged",
     "lint": "eslint ./",
     "test": "jest",
     "prepare": "husky install"
