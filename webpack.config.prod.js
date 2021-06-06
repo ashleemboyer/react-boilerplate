@@ -12,7 +12,7 @@ module.exports = merge(baseConfig, {
     }),
   ],
   externals: {
-    react: 'React',
+    'react': 'React',
     'react-dom': 'ReactDOM',
   },
 });
