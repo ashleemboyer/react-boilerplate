@@ -3,8 +3,6 @@ import { hot } from 'react-hot-loader';
 
 const Warning = React.lazy(() => import('./components/Warning'));
 
-const a = 'ABC';
-
 const App = () => {
   const [count, setCount] = useState(0);
 
