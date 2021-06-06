@@ -1,5 +1,3 @@
-// Simple module that just exports a string
+const getGreeting = (name) => `Hello, ${name}!`;
 
-const greeting = 'Hello, World!!';
-
-export default greeting;
+export default getGreeting;
