@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/ashleemboyer/react-boilerplate#readme",
   "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0"
   }
