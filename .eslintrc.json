@@ -18,5 +18,8 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react", "jsx-a11y"]
+  "plugins": ["react", "jsx-a11y"],
+  "rules": {
+    "react/prop-types": 0
+  }
 }
