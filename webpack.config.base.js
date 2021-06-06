@@ -29,7 +29,10 @@ module.exports = {
             ],
             '@babel/preset-react',
           ],
-          plugins: ['react-hot-loader/babel'],
+          plugins: [
+            'react-hot-loader/babel',
+            '@babel/plugin-syntax-dynamic-import',
+          ],
         },
       },
       {
