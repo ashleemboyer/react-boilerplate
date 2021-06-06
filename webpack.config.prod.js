@@ -16,3 +16,6 @@ module.exports = merge(baseConfig, {
     'react-dom': 'ReactDOM',
   },
 });
+
+// Without externals, app.bundle.js is 133.2 KB
+// With externals, app.bundle.js is 6.67 KB
