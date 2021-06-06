@@ -7,7 +7,7 @@ const App = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <main>
       <h1>Hello, world!</h1>
       <h2>Count: {count}</h2>
       <button onClick={() => setCount((prevCount) => prevCount - 1)}>-</button>
@@ -17,7 +17,7 @@ const App = () => {
           <Warning />
         </React.Suspense>
       )}
-    </>
+    </main>
   );
 };
 
