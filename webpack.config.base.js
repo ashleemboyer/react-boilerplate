@@ -22,4 +22,9 @@ module.exports = {
     ],
   },
   plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
+  resolve: {
+    fallback: {
+      crypto: false,
+    },
+  },
 };
