@@ -1,1 +1,43 @@
 # React Boilerplate
+
+## Commit History
+
+- [first commit](https://github.com/ashleemboyer/react-boilerplate/commit/8eedc8022f3c8863c971855479cb07b41b9d633c) - Added initial `package.json`
+- [Adding README](https://github.com/ashleemboyer/react-boilerplate/commit/27befaccc680788f75691c63d1dbb617bc448618) - Added basic README with title
+- [Updating package.json](https://github.com/ashleemboyer/react-boilerplate/commit/5a65da2a85689da198642852a830bb59a5d5beec) - Added repo information
+- [Installing webpack](https://github.com/ashleemboyer/react-boilerplate/commit/bb9b698a07be5fa09f6ecca952e56711f1074d48) - Added `webpack` and `webpack-cli`
+- [Adding webpack config](https://github.com/ashleemboyer/react-boilerplate/commit/756f4114302e2b4e034722d8fd2d8d0ba3119e65) - Added new `webpack.config.js` with `entry` and `output` path options defined
+- [Adding mode option](https://github.com/ashleemboyer/react-boilerplate/commit/e5d613080425400d8c39fb759a29d96aae4549cf) - Set `mode` option to `"development"`
+- [Changing mode to production](https://github.com/ashleemboyer/react-boilerplate/commit/f620701f67f23fdd61885ac87387988ee4d80003)
+- [Changing to an arrow function](https://github.com/ashleemboyer/react-boilerplate/commit/f00d117e325f2d083f54f0ca926f94231fe3f9f0) - Modified `greeting` to export a function
+- [Adding babel](https://github.com/ashleemboyer/react-boilerplate/commit/6828268d3b6328ff70c499b3650bb100c4edc541) - Added `@babel/cli`, `@babel/core`, and `@babel/preset-env`
+- [Adding babel-loader](https://github.com/ashleemboyer/react-boilerplate/commit/7c96a24488763e3a75f9cb7d0d261d9a5cc7ccf3) - Added `babel-loader` and a rule to `webpack.config.js` for `.js` files
+- [Adding HtmlWebpackPlugin](https://github.com/ashleemboyer/react-boilerplate/commit/d6321130ce232c94e6a300a715a3550d45f45c7e) and template - Added `html-webpack-plugin` and an HTML template
+- [Adding dev script for webpack to watch for changes](https://github.com/ashleemboyer/react-boilerplate/commit/a1ece8ecdb36b0c7df0f934191d04f8817a24849)
+- [Separating config files for dev and prod](https://github.com/ashleemboyer/react-boilerplate/commit/9409aa94bffe039266dd5c26421e5128c4567839) - Added `webpack-merge` and two new files for `dev` and `prod` settings
+- [Adding webpack-dev-server](https://github.com/ashleemboyer/react-boilerplate/commit/a83e7ba40170bd313a1b20a7b83ca393b3a520af) - Updated `dev` script and added `devServer` settings to `dev` config
+- [Adding devtool source-map for dev build](https://github.com/ashleemboyer/react-boilerplate/commit/55293f6a1fb52adddf099c244c4bda41fc9e4ed2)
+- [Adding style-loader and css-loader](https://github.com/ashleemboyer/react-boilerplate/commit/2d145374b0d18d4ef6a2493d38c8d89d7b44afa3) - Added loaders and a CSS file
+- [Making App more interesting](https://github.com/ashleemboyer/react-boilerplate/commit/e503132dca71011c9247e18e106bb6f666a9dd92) - Added some state to the `App` component
+- [Adding react-hot-loader and a special script](https://github.com/ashleemboyer/react-boilerplate/commit/cbb7d13ee8f906ca6389c5c78b01d7fbcab9d5d4) - Added `react-hot-loader` and `dev:hot` script
+- [De-duping dev:hot script](https://github.com/ashleemboyer/react-boilerplate/commit/59671c899e1894e585e65ecd0f84a24b4de67f55) - Changed `dev:hot` to run `dev` script with extra options
+- [Adding webpack-bundle-analyzer](https://github.com/ashleemboyer/react-boilerplate/commit/21a48ed752a39656c3438f8ca9a5a976bf3e52bb) - Added `webpack-bundle-analyzer` and config to `prod` settings
+- [Externalizing react and react-dom](https://github.com/ashleemboyer/react-boilerplate/commit/218298eae91d18d8ec41abeb22ed49aed7560762) - Adding `externals` option in `prod` config
+- [Adding notes about externals](https://github.com/ashleemboyer/react-boilerplate/commit/22138c389471c45d4a90846aeb318fb790243ff6) - Added notes about size differences of using `react` and `react-dom` CDN links
+- [Adding @babel/polyfill](https://github.com/ashleemboyer/react-boilerplate/commit/762344ee5f786f1147ea8b04590651a08fb1cfc1) - Added package and updated `@babel/preset-env` preset config to query for specific browsers
+- [Asynchronously loading with suspense](https://github.com/ashleemboyer/react-boilerplate/commit/af2cedd50c2109397c08d1f076e68c283ef44ead) - Added a `Warning` component and asynchronously loaded with `React.Suspense`
+- [Adding Jest and a test for App](https://github.com/ashleemboyer/react-boilerplate/commit/bad49112d958a86a779391c67118214411ef6a26) - Added `jest.config.js`, moved babel settings to a config file,s and added `@testing-library/jest-dom`, `@testing-library/react`, and `jest`
+- [Adding testSetup file](https://github.com/ashleemboyer/react-boilerplate/commit/8b5c1add37014128bb35ae76edb3a851639e6095) - Added file for importing `@testing-library/jest-dom/extend-expect` and added `setupFilesAfterEnv` jest config setting
+- [Adding prettier](https://github.com/ashleemboyer/react-boilerplate/commit/ba9bf2398e8789af805c36803d2fd9d6a1cc2dd0) - Added `prettier` and `pretty-quick` and added `format` script
+- [Adding eslint](https://github.com/ashleemboyer/react-boilerplate/commit/8c21c12630b31708c1ab5361dc86fc2fa72bcc31) - Added `eslint` and `eslint-plugin-react` packages, config file, and `lint` script
+- [Adding eslint-plugin-jsx-a11y](https://github.com/ashleemboyer/react-boilerplate/commit/ff4736b78906c3ab50118a4bfb68fcd62517cb9a)
+- [Adding new var](https://github.com/ashleemboyer/react-boilerplate/commit/6156d6155cca034e11b5089e9fbbb8cb81a9a7eb) - Was supposed to be a failing commit but I hadn't setup husky correctly :D
+- [This should fail](https://github.com/ashleemboyer/react-boilerplate/commit/e98f56e66dcfee4428c443b32a5af9e1da799289) - Same as previous XD
+- [Removing lint issue](https://github.com/ashleemboyer/react-boilerplate/commit/85a15183e51392aa4144209afdfa171e0328510c) - Added husky, `prepare` script, and fixed lint issue from previous two commits
+- [Adding to pre-commit hook](https://github.com/ashleemboyer/react-boilerplate/commit/7a1533cb1b89d13271229388b909b21d198d75a9) - Added `format:staged` script and updates pre-commit hook to run `format:staged`, `link`, and `test` scripts
+- [Adding React.StrictMode component](https://github.com/ashleemboyer/react-boilerplate/commit/916862964fda563a949797080cfbde2042ae4933) - Wrapped `App` in `React.StrictMode` (additional checks and warnings in development mode)
+- [Turning off react/prop-types](https://github.com/ashleemboyer/react-boilerplate/commit/8044d1272d15a14aa1c158544bde90be9e07e9d7) - Turned off the rule since I know how prop types work and not concerned about it for this app
+- [Adding DefaultErrorBoundary](https://github.com/ashleemboyer/react-boilerplate/commit/6c95657277b027be67c0c848a8e5361402a4e482)
+- [Adding @axe-core/react](https://github.com/ashleemboyer/react-boilerplate/commit/9fa3210a5e2fa78e8d29bb9b89daf758fd2f08ec) - Added package and run it when in development
+- [Adding landmark](https://github.com/ashleemboyer/react-boilerplate/commit/d38aad775b05c2068680c9ca671cf0593f4e6d9d) - Fixed an a11y issue found by `@axe-core/react`
+- [Code cleanup](https://github.com/ashleemboyer/react-boilerplate/commit/906af4a5357a91748b523c0c0df1088dc4c90735) - Cleaned up code for boilerplate re-use
